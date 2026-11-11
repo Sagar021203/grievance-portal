@@ -9,8 +9,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'The Department of Us',
-        short_name: 'Dept. of Us',
+        name: 'Complain Center',
+        short_name: 'Complain Center',
         description:
           'A private correspondence office for two: file a grievance, receive a reply, and settle the matter with love.',
         theme_color: '#f4f0e7',
