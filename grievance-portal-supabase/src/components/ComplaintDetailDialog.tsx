@@ -112,7 +112,7 @@ export function ComplaintDetailDialog({ complaint, currentUserId, onClose, onRep
             </div>
           ) : (
             <div className="response-pending">
-              <div className="response-heading"><MessageCircleHeart size={17} /><span>{complaint.recipient.role === 'department' ? "THE DEPARTMENT'S RESPONSE" : "THE USER'S RESPONSE"}</span></div>
+              <div className="response-heading"><MessageCircleHeart size={17} /><span>{complaint.recipient.role === 'department' ? "THE DEPARTMENT'S RESPONSE" : "MAALKIN KA RESPONSE"}</span></div>
               <p>{statusCopy(complaint.status, Boolean(isSender))}</p>
             </div>
           )}
